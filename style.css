@@ -5,12 +5,41 @@ hr {
 }
 
 .titulo-pagina {
+    text-align: center;
     font-style: italic;
     font-size: 3em;
     font-weight: 900;
     font-family: 'Roboto', sans-serif;
     color: darkblue;
     margin: 10px;
+}
+
+.menu-navegacao {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.menu-navegacao ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.menu-navegacao li {
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;   
+  
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu-navegacao a:hover{
+    background-color: cyan
 }
 
 .nome-da-propriedade {
@@ -333,6 +362,86 @@ hr {
     align-items: center;
     /* flex-wrap: nowrap; */
     flex-flow: row nowrap;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-content-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-content-flexstart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-content-flexend
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
+.container-align-content-spacebetween
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-content-spacearound
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-content-spaceevenly{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
     /* indiferente */
     background-color: #f9eac3;
     padding: 16px;
