@@ -61,3 +61,30 @@
     padding: 16px;
     height: 500px;   
 }
+
+.container-column{
+    display: flex;
+    flex-direction: column;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;   
+}
+
+.container-row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px; 
+}
+
+.container-column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px; 
+}
