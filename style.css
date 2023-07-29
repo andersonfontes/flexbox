@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,900&display=swap');
 
+
 hr {
     margin: 15px;
 }
@@ -12,6 +13,7 @@ hr {
     font-family: 'Roboto', sans-serif;
     color: darkblue;
     margin: 10px;
+  
 }
 
 .menu-navegacao {
@@ -30,8 +32,7 @@ hr {
   padding: 20px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 1.3em;   
-  
+  font-size: 1.3em;
 }
 
 a {
@@ -39,7 +40,9 @@ a {
 }
 
 .menu-navegacao a:hover{
-    background-color: cyan
+    background-color: cyan;
+    padding: 13px;
+    border-radius:15px;
 }
 
 .nome-da-propriedade {
