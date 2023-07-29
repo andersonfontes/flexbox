@@ -53,9 +53,9 @@
     border-radius: 16px;
 }
 
-.bloco-1{
+.bloco-1-sem-altura{
     background-color: lightblue;
-    height: 150px;
+    
     width: 150px;
     text-align: center;
     font-size: 40px;
@@ -63,9 +63,9 @@
     border-radius: 16px;
 }
 
-.bloco-2{
+.bloco-2-sem-altura{
     background-color: lightpink;
-    height: 150px;
+    
     width: 150px;
     text-align: center;
     font-size: 40px;
@@ -73,9 +73,9 @@
     border-radius: 16px;
 }
 
-.bloco-3{
+.bloco-3-sem-altura{
     background-color: red;
-    height: 150px;
+    
     width: 150px;
     text-align: center;
     font-size: 40px;
@@ -204,6 +204,17 @@
     flex-direction: row; 
     justify-content: center;
     align-items: flex-end;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;   
+}
+
+.container-alignitems-stretch{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: stretch;
     /* indiferente */
     background-color: #f9eac3;
     padding: 16px;
