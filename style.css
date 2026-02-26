@@ -282,3 +282,53 @@
     padding: 16px;
     height: 500px
 }
+
+.container-flex-wrap-nowrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px
+}
+
+.container-flex-wrap-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px
+}
+
+.container-flex-wrap-wrap-reverse{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px
+}
+
+/*  VAMOS ESTUDAR UMA PROPRIEDADE SHORTHAND */
+.container-flex-flow-row-nowrap{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: nowrap; */
+    flex-flow: row nowrap;  /* shorthand!! */
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px
+}
